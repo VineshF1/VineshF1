@@ -24,8 +24,6 @@
 - Artificial Intelligence and Generative AI
 - AI-Assisted Full-Stack Development
 - Machine Learning and LLM Applications
-- Data Analysis
-- Data Visualization
 - Automation Systems
 - Real-Time Telemetry Systems
 - Performance Optimization
