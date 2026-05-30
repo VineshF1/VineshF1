@@ -10,26 +10,31 @@
 <img src="https://i.pinimg.com/originals/ad/fc/cd/adfccd6a72515359c1c283f912b67616.gif" alt="Banner" width="100%" />
 
 ## 📌 About Me
-- Currently building AI-powered and full-stack development projects
-- Learning advanced AI integrations, scalable architectures, and automation systems
-- Interested in Artificial Intelligence, Generative AI, and intelligent software systems
-- Focused on AI-assisted full-stack development and rapid prototyping
+- Currently building AI-powered applications and full-stack development projects
+- Learning Agentic AI, LLM orchestration, advanced AI integrations, and automation systems
+- Exploring PostgreSQL, databases, backend engineering, and scalable software architectures
+- Interested in Artificial Intelligence, Generative AI, AI Agents, and intelligent software systems
+- Focused on AI-assisted development, rapid prototyping, and real-world problem solving
 - Passionate about building scalable, secure, and user-centric applications
 - Working with Python, JavaScript, React, Node.js, APIs, and modern web technologies
-- Interested in automation and performance optimization
+- Continuously improving problem-solving, system design, and software engineering skills
+- Interested in automation, performance optimization, and developer productivity
 - Open to collaborating on innovative AI and software development projects
 
 
 ## 🧠 My Focus Areas
 - Python
-- Artificial Intelligence and Generative AI
+- PostgreSQL & Database Systems
+- Artificial Intelligence & Generative AI
+- Agentic AI Systems
+- Large Language Models (LLMs)
+- Retrieval-Augmented Generation (RAG)
 - AI-Assisted Full-Stack Development
-- Machine Learning and LLM Applications
-- Automation Systems
+- Automation Systems & Workflow Engineering
+- API Design & Integration
+- Cloud & Intelligent Applications
 - Performance Optimization
-- Modern UI/UX Development
-- Cloud and Intelligent Applications
-- Problem Solving and Algorithmic Thinking
+- Problem Solving & Algorithmic Thinking
 
 
 ## 📊 GitHub Stats & Trophies
