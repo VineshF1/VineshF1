@@ -1,20 +1,14 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Vinesh - AI, agents, real-time systems" />
+  <picture><img src="assets/header.svg" width="100%" alt="Vinesh - AI, agents, real-time systems" /></picture>
 </p>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<picture><img src="assets/divider.svg" width="100%" alt="" /></picture>
 
 <p align="center">
-  <img src="assets/projects.svg" width="100%" alt="Projects: Portfolio, Halos AI, SkyTrace, EauRouge-F1, Suze" />
+  <picture><img src="assets/projects.svg" width="100%" alt="Projects: Portfolio, Halos AI, SkyTrace, EauRouge-F1, Suze" /></picture>
 </p>
 
-<!-- PROJECT-LINKS:START -->
-<p align="center">
-  <sub><a href="https://github.com/VineshF1/Portfolio-1">01 Portfolio ↗</a> &nbsp;&nbsp; <a href="https://github.com/VineshF1/Halos-AI">02 Halos AI ↗</a> &nbsp;&nbsp; <a href="https://github.com/VineshF1/SkyTrace">03 SkyTrace ↗</a> &nbsp;&nbsp; <a href="https://github.com/VineshF1/EauRouge-F1">04 EauRouge-F1 ↗</a> &nbsp;&nbsp; <a href="https://github.com/VineshF1/Suze">05 Suze ↗</a></sub>
-</p>
-<!-- PROJECT-LINKS:END -->
-
-<img src="assets/divider.svg" width="100%" alt="" />
+<picture><img src="assets/divider.svg" width="100%" alt="" /></picture>
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=VineshF1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=080913" alt="GitHub stats" />
@@ -27,7 +21,7 @@
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/VineshF1/VineshF1/output/github-snake.svg" />
 </picture>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<picture><img src="assets/divider.svg" width="100%" alt="" /></picture>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/vinesh007"><img src="https://img.shields.io/badge/LinkedIn-vinesh007-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
@@ -36,7 +30,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/contact.svg" width="100%" alt="Say hello" />
+  <picture><img src="assets/contact.svg" width="100%" alt="Say hello" /></picture>
 </p>
 
 <p align="center">
