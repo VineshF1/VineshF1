@@ -4,25 +4,21 @@
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
+<!-- PROJECT-CARDS:START -->
 <p align="center">
-  <img src="assets/projects.svg" width="100%" alt="Projects: Portfolio, Halos AI, SkyTrace, EauRouge-F1, Suze" />
+  <a href="https://github.com/VineshF1/Portfolio-1"><img src="assets/cards/portfolio.svg" width="400" alt="Portfolio" /></a>
+  <a href="https://github.com/VineshF1/Halos-AI"><img src="assets/cards/halos-ai.svg" width="400" alt="Halos AI" /></a>
 </p>
 
-<!-- PROJECT-LINKS:START -->
 <p align="center">
-  <a href="https://github.com/VineshF1/Portfolio-1">Portfolio</a> &nbsp;·&nbsp;
-  <a href="https://github.com/VineshF1/Halos-AI">Halos AI</a> &nbsp;·&nbsp;
-  <a href="https://github.com/VineshF1/SkyTrace">SkyTrace</a> &nbsp;·&nbsp;
-  <a href="https://github.com/VineshF1/EauRouge-F1">EauRouge-F1</a> &nbsp;·&nbsp;
-  <a href="https://github.com/VineshF1/Suze">Suze</a>
+  <a href="https://github.com/VineshF1/SkyTrace"><img src="assets/cards/skytrace.svg" width="400" alt="SkyTrace" /></a>
+  <a href="https://github.com/VineshF1/EauRouge-F1"><img src="assets/cards/eaurouge-f1.svg" width="400" alt="EauRouge-F1" /></a>
 </p>
-<!-- PROJECT-LINKS:END -->
-
-<img src="assets/divider.svg" width="100%" alt="" />
 
 <p align="center">
-  <img src="assets/stack.svg" width="100%" alt="Tech stack: Python, SQL, PyTorch, Hugging Face, QLoRA, LangGraph, Google ADK, MCP, PostgreSQL, pgvector, Docker, Git" />
+  <a href="https://github.com/VineshF1/Suze"><img src="assets/cards/suze.svg" width="400" alt="Suze" /></a>
 </p>
+<!-- PROJECT-CARDS:END -->
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
@@ -40,9 +36,9 @@
 <img src="assets/divider.svg" width="100%" alt="" />
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/vinesh007">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="mailto:vinesharceus@gmail.com">Email</a> &nbsp;·&nbsp;
-  <a href="https://github.com/VineshF1">GitHub</a>
+  <a href="https://www.linkedin.com/in/vinesh007"><img src="https://img.shields.io/badge/LinkedIn-vinesh007-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:vinesharceus@gmail.com"><img src="https://img.shields.io/badge/Email-vinesharceus%40gmail.com-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/VineshF1"><img src="https://img.shields.io/badge/GitHub-VineshF1-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub" /></a>
 </p>
 
 <p align="center">Feel free to contact me for further discussion.</p>
