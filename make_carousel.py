@@ -22,6 +22,7 @@ Each project in projects.json:
 import argparse, html, json, os, re, sys, textwrap
 
 W, H = 1200, 270
+BW, BH = 160, 46
 SANS = "-apple-system,'Segoe UI',Helvetica,Arial,sans-serif"
 GRAD = ('<linearGradient id="ink" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00f5a0"/>'
         '<stop offset=".5" stop-color="#2d9cff"/><stop offset="1" stop-color="#ff4fd8"/></linearGradient>')
@@ -29,6 +30,11 @@ GRAD = ('<linearGradient id="ink" x1="0" y1="0" x2="1" y2="0"><stop offset="0" s
 
 def esc(s):
     return html.escape(str(s), quote=False)
+
+
+def slug(title):
+    s = re.sub(r"[^a-z0-9]+", "-", str(title).lower()).strip("-")
+    return s or "project"
 
 
 def build_svg(projects, seg):
@@ -76,17 +82,41 @@ def build_svg(projects, seg):
 
 def link_row(projects):
     parts = []
-    for i, p in enumerate(projects, 1):
+    for p in projects:
         t = esc(p["title"])
-        label = f"{i:02d} {t} \u2197"
-        parts.append(f'<a href="{html.escape(p["url"], quote=True)}">{label}</a>' if p.get("url") else label)
-    return ('<p align="center">\n  <sub>' + " &nbsp;&nbsp; ".join(parts) + "</sub>\n</p>")
+        img = f'<img src="assets/buttons/{slug(p["title"])}.svg" width="{BW}" alt="{t}" />'
+        parts.append(f'<a href="{html.escape(p["url"], quote=True)}">{img}</a>' if p.get("url") else img)
+    return '<p align="center">\n  ' + "\n  ".join(parts) + "\n</p>"
+
+
+def build_button(p):
+    t = esc(p["title"])
+    return "\n".join([
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {BW} {BH}" width="{BW}" height="{BH}" role="img" '
+        f'aria-label="{t}">',
+        f'<defs>{GRAD}'
+        f'<filter id="bl" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="9"/></filter>'
+        f'<clipPath id="cc"><rect width="{BW}" height="{BH}" rx="23"/></clipPath></defs>',
+        f'<rect width="{BW}" height="{BH}" rx="23" fill="#080913"/>',
+        '<g clip-path="url(#cc)"><g filter="url(#bl)" opacity=".38">',
+        '<circle cx="26" cy="23" r="24" fill="#00f5a0">'
+        '<animateTransform attributeName="transform" type="translate" values="0 0;112 0;0 0" dur="9s" repeatCount="indefinite"/></circle>',
+        '<circle cx="134" cy="23" r="24" fill="#7c5cff">'
+        '<animateTransform attributeName="transform" type="translate" values="0 0;-104 0;0 0" dur="12s" repeatCount="indefinite"/></circle>',
+        '</g></g>',
+        f'<rect x=".5" y=".5" width="{BW-1}" height="{BH-1}" rx="22.5" fill="#ffffff" fill-opacity=".04" '
+        f'stroke="url(#ink)" stroke-opacity=".8"/>',
+        f'<text x="{BW/2}" y="29" text-anchor="middle" font-family="{SANS}" font-size="14" font-weight="600" '
+        f'fill="#fff">{t}</text>',
+        '</svg>',
+    ])
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--json", default="projects.json")
     ap.add_argument("--out", default="assets/projects.svg")
+    ap.add_argument("--buttons", default="assets/buttons")
     ap.add_argument("--readme", default="README.md")
     ap.add_argument("--seconds", type=float, default=5, help="seconds each card stays on screen")
     a = ap.parse_args()
@@ -111,6 +141,18 @@ def main():
     os.makedirs(os.path.dirname(a.out) or ".", exist_ok=True)
     open(a.out, "w", encoding="utf-8").write(build_svg(projects, a.seconds))
     print(f"wrote {a.out} with {len(projects)} project(s), {a.seconds}s each")
+
+    os.makedirs(a.buttons, exist_ok=True)
+    keep = set()
+    for p in projects:
+        path = os.path.join(a.buttons, f"{slug(p['title'])}.svg")
+        open(path, "w", encoding="utf-8").write(build_button(p))
+        keep.add(os.path.normpath(path))
+    print(f"wrote {len(keep)} aurora button(s) to {a.buttons}")
+    for f in os.listdir(a.buttons):
+        if f.endswith(".svg") and os.path.normpath(os.path.join(a.buttons, f)) not in keep:
+            os.remove(os.path.join(a.buttons, f))
+            print(f"removed stale {a.buttons}/{f}")
 
     if os.path.exists(a.readme):
         txt = open(a.readme, encoding="utf-8").read()

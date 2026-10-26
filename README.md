@@ -8,6 +8,16 @@
   <picture><img src="assets/projects.svg" width="100%" alt="Projects: Portfolio, Halos AI, SkyTrace, EauRouge-F1, Suze" /></picture>
 </p>
 
+<!-- PROJECT-LINKS:START -->
+<p align="center">
+  <a href="https://github.com/VineshF1/Portfolio-1"><img src="assets/buttons/portfolio.svg" width="160" alt="Portfolio" /></a>
+  <a href="https://github.com/VineshF1/Halos-AI"><img src="assets/buttons/halos-ai.svg" width="160" alt="Halos AI" /></a>
+  <a href="https://github.com/VineshF1/SkyTrace"><img src="assets/buttons/skytrace.svg" width="160" alt="SkyTrace" /></a>
+  <a href="https://github.com/VineshF1/EauRouge-F1"><img src="assets/buttons/eaurouge-f1.svg" width="160" alt="EauRouge-F1" /></a>
+  <a href="https://github.com/VineshF1/Suze"><img src="assets/buttons/suze.svg" width="160" alt="Suze" /></a>
+</p>
+<!-- PROJECT-LINKS:END -->
+
 <picture><img src="assets/divider.svg" width="100%" alt="" /></picture>
 
 <p align="center">
