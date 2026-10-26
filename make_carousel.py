@@ -76,13 +76,11 @@ def build_svg(projects, seg):
 
 def link_row(projects):
     parts = []
-    for p in projects:
+    for i, p in enumerate(projects, 1):
         t = esc(p["title"])
-        label = html.escape(str(p["title"]).replace(" ", "%20"), quote=True)
-        img = (f'<img src="https://img.shields.io/badge/{label}-7c5cff?style=for-the-badge'
-               f'&amp;logo=github&amp;logoColor=white" alt="{t}" />')
-        parts.append(f'<a href="{html.escape(p["url"], quote=True)}">{img}</a>' if p.get("url") else img)
-    return '<p align="center">\n  ' + "\n  ".join(parts) + "\n</p>"
+        label = f"{i:02d} {t} \u2197"
+        parts.append(f'<a href="{html.escape(p["url"], quote=True)}">{label}</a>' if p.get("url") else label)
+    return ('<p align="center">\n  <sub>' + " &nbsp;&nbsp; ".join(parts) + "</sub>\n</p>")
 
 
 def main():

@@ -10,11 +10,7 @@
 
 <!-- PROJECT-LINKS:START -->
 <p align="center">
-  <a href="https://github.com/VineshF1/Portfolio-1"><img src="https://img.shields.io/badge/Portfolio-7c5cff?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Portfolio" /></a>
-  <a href="https://github.com/VineshF1/Halos-AI"><img src="https://img.shields.io/badge/Halos%20AI-7c5cff?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Halos AI" /></a>
-  <a href="https://github.com/VineshF1/SkyTrace"><img src="https://img.shields.io/badge/SkyTrace-7c5cff?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="SkyTrace" /></a>
-  <a href="https://github.com/VineshF1/EauRouge-F1"><img src="https://img.shields.io/badge/EauRouge-F1-7c5cff?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="EauRouge-F1" /></a>
-  <a href="https://github.com/VineshF1/Suze"><img src="https://img.shields.io/badge/Suze-7c5cff?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Suze" /></a>
+  <sub><a href="https://github.com/VineshF1/Portfolio-1">01 Portfolio ↗</a> &nbsp;&nbsp; <a href="https://github.com/VineshF1/Halos-AI">02 Halos AI ↗</a> &nbsp;&nbsp; <a href="https://github.com/VineshF1/SkyTrace">03 SkyTrace ↗</a> &nbsp;&nbsp; <a href="https://github.com/VineshF1/EauRouge-F1">04 EauRouge-F1 ↗</a> &nbsp;&nbsp; <a href="https://github.com/VineshF1/Suze">05 Suze ↗</a></sub>
 </p>
 <!-- PROJECT-LINKS:END -->
 
@@ -39,7 +35,9 @@
   <a href="https://github.com/VineshF1"><img src="https://img.shields.io/badge/GitHub-VineshF1-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub" /></a>
 </p>
 
-<p align="center">Feel free to contact me for further discussion.</p>
+<p align="center">
+  <img src="assets/contact.svg" width="100%" alt="Say hello" />
+</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=VineshF1&label=Profile+views&color=7c5cff&style=flat-square" alt="Profile views" />
