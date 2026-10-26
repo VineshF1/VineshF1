@@ -4,21 +4,19 @@
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
-<!-- PROJECT-CARDS:START -->
 <p align="center">
-  <a href="https://github.com/VineshF1/Portfolio-1"><img src="assets/cards/portfolio.svg" width="400" alt="Portfolio" /></a>
-  <a href="https://github.com/VineshF1/Halos-AI"><img src="assets/cards/halos-ai.svg" width="400" alt="Halos AI" /></a>
+  <img src="assets/projects.svg" width="100%" alt="Projects: Portfolio, Halos AI, SkyTrace, EauRouge-F1, Suze" />
 </p>
 
+<!-- PROJECT-LINKS:START -->
 <p align="center">
-  <a href="https://github.com/VineshF1/SkyTrace"><img src="assets/cards/skytrace.svg" width="400" alt="SkyTrace" /></a>
-  <a href="https://github.com/VineshF1/EauRouge-F1"><img src="assets/cards/eaurouge-f1.svg" width="400" alt="EauRouge-F1" /></a>
+  <a href="https://github.com/VineshF1/Portfolio-1">Portfolio</a> &nbsp;·&nbsp;
+  <a href="https://github.com/VineshF1/Halos-AI">Halos AI</a> &nbsp;·&nbsp;
+  <a href="https://github.com/VineshF1/SkyTrace">SkyTrace</a> &nbsp;·&nbsp;
+  <a href="https://github.com/VineshF1/EauRouge-F1">EauRouge-F1</a> &nbsp;·&nbsp;
+  <a href="https://github.com/VineshF1/Suze">Suze</a>
 </p>
-
-<p align="center">
-  <a href="https://github.com/VineshF1/Suze"><img src="assets/cards/suze.svg" width="400" alt="Suze" /></a>
-</p>
-<!-- PROJECT-CARDS:END -->
+<!-- PROJECT-LINKS:END -->
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
