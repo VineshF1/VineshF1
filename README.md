@@ -10,11 +10,11 @@
 
 <!-- PROJECT-LINKS:START -->
 <p align="center">
-  <a href="https://github.com/VineshF1/Portfolio-1">Portfolio</a> &nbsp;·&nbsp;
-  <a href="https://github.com/VineshF1/Halos-AI">Halos AI</a> &nbsp;·&nbsp;
-  <a href="https://github.com/VineshF1/SkyTrace">SkyTrace</a> &nbsp;·&nbsp;
-  <a href="https://github.com/VineshF1/EauRouge-F1">EauRouge-F1</a> &nbsp;·&nbsp;
-  <a href="https://github.com/VineshF1/Suze">Suze</a>
+  <a href="https://github.com/VineshF1/Portfolio-1"><img src="https://img.shields.io/badge/Portfolio-7c5cff?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Portfolio" /></a>
+  <a href="https://github.com/VineshF1/Halos-AI"><img src="https://img.shields.io/badge/Halos%20AI-7c5cff?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Halos AI" /></a>
+  <a href="https://github.com/VineshF1/SkyTrace"><img src="https://img.shields.io/badge/SkyTrace-7c5cff?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="SkyTrace" /></a>
+  <a href="https://github.com/VineshF1/EauRouge-F1"><img src="https://img.shields.io/badge/EauRouge-F1-7c5cff?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="EauRouge-F1" /></a>
+  <a href="https://github.com/VineshF1/Suze"><img src="https://img.shields.io/badge/Suze-7c5cff?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Suze" /></a>
 </p>
 <!-- PROJECT-LINKS:END -->
 

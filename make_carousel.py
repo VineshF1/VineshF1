@@ -78,8 +78,11 @@ def link_row(projects):
     parts = []
     for p in projects:
         t = esc(p["title"])
-        parts.append(f'<a href="{html.escape(p["url"], quote=True)}">{t}</a>' if p.get("url") else t)
-    return '<p align="center">\n  ' + " &nbsp;·&nbsp;\n  ".join(parts) + "\n</p>"
+        label = html.escape(str(p["title"]).replace(" ", "%20"), quote=True)
+        img = (f'<img src="https://img.shields.io/badge/{label}-7c5cff?style=for-the-badge'
+               f'&amp;logo=github&amp;logoColor=white" alt="{t}" />')
+        parts.append(f'<a href="{html.escape(p["url"], quote=True)}">{img}</a>' if p.get("url") else img)
+    return '<p align="center">\n  ' + "\n  ".join(parts) + "\n</p>"
 
 
 def main():
