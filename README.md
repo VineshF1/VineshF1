@@ -1,61 +1,52 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:00f5a0&height=200&section=header&text=Vinesh&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%2F%20ML%20%7C%20Agents%20%7C%20Real-time%20Systems&descAlignY=60&descSize=18" />
+<p align="center">
+  <img src="assets/header.svg" width="100%" alt="Vinesh - AI, agents, real-time systems" />
+</p>
+
+<img src="assets/divider.svg" width="100%" alt="" />
 
 <p align="center">
-  <a href="https://github.com/VineshF1">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=00F5A0&center=true&vCenter=true&width=640&lines=Building+AI+systems+and+agents;LLM+fine-tuning+and+evaluation;Real-time+data+systems+and+APIs" alt="typing intro" />
-  </a>
+  <img src="assets/projects.svg" width="100%" alt="Projects: Portfolio, Halos AI, SkyTrace, EauRouge-F1, Suze" />
 </p>
 
----
-
-### `~/vinesh $ whoami`
-
-```python
-class Vinesh:
-    focus     = ["agentic AI", "LLM fine-tuning", "real-time data systems"]
-    stack     = ["Python", "LangGraph", "Google ADK", "MCP", "pgvector", "QLoRA"]
-    principle = "If I can't measure it, I don't claim it"
-
-    def contact(self):
-        return "Feel free to contact me for further discussion."
-```
-
----
-
-### Tech I use
-
-<p>
-  <img src="https://img.shields.io/badge/Python-0f0c29?style=for-the-badge&logo=python&logoColor=00f5a0" />
-  <img src="https://img.shields.io/badge/PyTorch-0f0c29?style=for-the-badge&logo=pytorch&logoColor=00f5a0" />
-  <img src="https://img.shields.io/badge/HuggingFace-0f0c29?style=for-the-badge&logo=huggingface&logoColor=00f5a0" />
-  <img src="https://img.shields.io/badge/PostgreSQL-0f0c29?style=for-the-badge&logo=postgresql&logoColor=00f5a0" />
-  <img src="https://img.shields.io/badge/Docker-0f0c29?style=for-the-badge&logo=docker&logoColor=00f5a0" />
-  <img src="https://img.shields.io/badge/Git-0f0c29?style=for-the-badge&logo=git&logoColor=00f5a0" />
+<!-- PROJECT-LINKS:START -->
+<p align="center">
+  <a href="https://github.com/VineshF1/Portfolio-1">Portfolio</a> &nbsp;·&nbsp;
+  <a href="https://github.com/VineshF1/Halos-AI">Halos AI</a> &nbsp;·&nbsp;
+  <a href="https://github.com/VineshF1/SkyTrace">SkyTrace</a> &nbsp;·&nbsp;
+  <a href="https://github.com/VineshF1/EauRouge-F1">EauRouge-F1</a> &nbsp;·&nbsp;
+  <a href="https://github.com/VineshF1/Suze">Suze</a>
 </p>
+<!-- PROJECT-LINKS:END -->
 
----
-
-### GitHub activity
+<img src="assets/divider.svg" width="100%" alt="" />
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=VineshF1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f0c29" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VineshF1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f0c29" />
+  <img src="assets/stack.svg" width="100%" alt="Tech stack: Python, SQL, PyTorch, Hugging Face, QLoRA, LangGraph, Google ADK, MCP, PostgreSQL, pgvector, Docker, Git" />
 </p>
 
-<!-- Contribution snake: needs the snake.yml workflow -->
+<img src="assets/divider.svg" width="100%" alt="" />
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=VineshF1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=080913" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VineshF1&layout=compact&theme=tokyonight&hide_border=true&bg_color=080913" alt="Top languages" />
+</p>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VineshF1/VineshF1/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VineshF1/VineshF1/output/github-snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/VineshF1/VineshF1/output/github-snake.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/VineshF1/VineshF1/output/github-snake.svg" />
 </picture>
 
----
+<img src="assets/divider.svg" width="100%" alt="" />
 
-### Reach me
-
-<p>
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0f0c29?style=for-the-badge&logo=linkedin&logoColor=00f5a0" /></a>
-  <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-0f0c29?style=for-the-badge&logo=gmail&logoColor=00f5a0" /></a>
+<p align="center">
+  <a href="https://www.linkedin.com/in/vinesh007">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="mailto:vinesharceus@gmail.com">Email</a> &nbsp;·&nbsp;
+  <a href="https://github.com/VineshF1">GitHub</a>
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5a0,50:302b63,100:0f0c29&height=100&section=footer" />
+<p align="center">Feel free to contact me for further discussion.</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=VineshF1&label=Profile+views&color=7c5cff&style=flat-square" alt="Profile views" />
+</p>

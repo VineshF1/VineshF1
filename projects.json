@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Portfolio",
+    "description": "A personal portfolio website showcasing projects and skills.",
+    "url": "https://github.com/VineshF1/Portfolio-1"
+  },
+  {
+    "title": "Halos AI",
+    "description": "An AI-powered Formula 1 chatbot for trivia, statistics, and historical race data.",
+    "url": "https://github.com/VineshF1/Halos-AI"
+  },
+  {
+    "title": "SkyTrace",
+    "description": "A secure, multi-agent system leveraging an MCP server and orbital mechanics to track and predict real-time satellite positions.",
+    "url": "https://github.com/VineshF1/SkyTrace"
+  },
+  {
+    "title": "EauRouge-F1",
+    "description": "Qwen3-8B fine-tuned on F1-Dataset 10656 QA (1950-2025) — Unsloth QLoRA",
+    "url": "https://github.com/VineshF1/EauRouge-F1"
+  },
+  {
+    "title": "Suze",
+    "description": "Secure Agentic RAG Knowledge Assistant. Chat with your documents using hybrid search and a self-correcting LLM loop.",
+    "url": "https://github.com/VineshF1/Suze"
+  }
+]
