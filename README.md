@@ -25,11 +25,9 @@
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VineshF1&layout=compact&theme=tokyonight&hide_border=true&bg_color=080913" alt="Top languages" />
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VineshF1/VineshF1/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VineshF1/VineshF1/output/github-snake.svg" />
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/VineshF1/VineshF1/output/github-snake.svg" />
-</picture>
+<p align="center">
+  <picture><img src="https://ghchart.rshah.org/7c5cff/VineshF1" width="100%" alt="Contribution chart" /></picture>
+</p>
 
 <picture><img src="assets/divider.svg" width="100%" alt="" /></picture>
 
