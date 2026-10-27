@@ -36,7 +36,3 @@
 <p align="center">
   <picture><img src="assets/contact.svg" width="100%" alt="Say hello" /></picture>
 </p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=VineshF1&label=Profile+views&color=7c5cff&style=flat-square" alt="Profile views" />
-</p>
