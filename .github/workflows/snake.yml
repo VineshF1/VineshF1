@@ -1,11 +1,9 @@
 name: Generate contribution snake
 
 on:
-  schedule:
-    - cron: "0 * * * *"   # every hour
-  workflow_dispatch:          # lets you run it manually
+  workflow_dispatch:          # manual refresh
   push:
-    branches: [main]
+    branches: [main]          # only when this repo gets a commit
 
 permissions:
   contents: write
