@@ -25,10 +25,6 @@
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VineshF1&layout=compact&theme=tokyonight&hide_border=true&bg_color=080913" alt="Top languages" />
 </p>
 
-<p align="center">
-  <picture><img src="https://ghchart.rshah.org/7c5cff/VineshF1" width="100%" alt="Contribution chart" /></picture>
-</p>
-
 <picture><img src="assets/divider.svg" width="100%" alt="" /></picture>
 
 <p align="center">
